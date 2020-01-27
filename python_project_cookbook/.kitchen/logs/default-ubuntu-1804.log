@@ -1,0 +1,119 @@
+I, [2020-01-27T09:54:16.721952 #9644]  INFO -- default-ubuntu-1804: -----> Creating <default-ubuntu-1804>...
+I, [2020-01-27T09:54:23.336401 #9644]  INFO -- default-ubuntu-1804: Bringing machine 'default' up with 'virtualbox' provider...
+I, [2020-01-27T09:54:28.517203 #9644]  INFO -- default-ubuntu-1804: ==> default: Importing base box 'bento/ubuntu-18.04'...
+I, [2020-01-27T09:54:40.779219 #9644]  INFO -- default-ubuntu-1804: [KProgress: 20%[KProgress: 40%[K==> default: Matching MAC address for NAT networking...
+I, [2020-01-27T09:54:41.262310 #9644]  INFO -- default-ubuntu-1804: ==> default: Checking if box 'bento/ubuntu-18.04' version '201912.14.0' is up to date...
+I, [2020-01-27T09:54:43.723919 #9644]  INFO -- default-ubuntu-1804: ==> default: Setting the name of the VM: kitchen-python_project_cookbook-default-ubuntu-1804-0d9814cf-4917-43c7-ab3f-58a3a4817bb5
+I, [2020-01-27T09:54:48.690231 #9644]  INFO -- default-ubuntu-1804: ==> default: Clearing any previously set network interfaces...
+I, [2020-01-27T09:54:48.848296 #9644]  INFO -- default-ubuntu-1804: ==> default: Preparing network interfaces based on configuration...
+I, [2020-01-27T09:54:48.848538 #9644]  INFO -- default-ubuntu-1804:     default: Adapter 1: nat
+I, [2020-01-27T09:54:49.023675 #9644]  INFO -- default-ubuntu-1804: ==> default: Forwarding ports...
+I, [2020-01-27T09:54:49.211302 #9644]  INFO -- default-ubuntu-1804:     default: 22 (guest) => 2222 (host) (adapter 1)
+I, [2020-01-27T09:54:49.639212 #9644]  INFO -- default-ubuntu-1804: ==> default: Running 'pre-boot' VM customizations...
+I, [2020-01-27T09:54:49.795782 #9644]  INFO -- default-ubuntu-1804: ==> default: Booting VM...
+I, [2020-01-27T09:54:55.001208 #9644]  INFO -- default-ubuntu-1804: ==> default: Waiting for machine to boot. This may take a few minutes...
+I, [2020-01-27T09:54:56.086075 #9644]  INFO -- default-ubuntu-1804:     default: SSH address: 127.0.0.1:2222
+I, [2020-01-27T09:54:56.086270 #9644]  INFO -- default-ubuntu-1804:     default: SSH username: vagrant
+I, [2020-01-27T09:54:56.086425 #9644]  INFO -- default-ubuntu-1804:     default: SSH auth method: private key
+I, [2020-01-27T09:55:15.532696 #9644]  INFO -- default-ubuntu-1804:     default: 
+I, [2020-01-27T09:55:15.532869 #9644]  INFO -- default-ubuntu-1804:     default: Vagrant insecure key detected. Vagrant will automatically replace
+I, [2020-01-27T09:55:15.532998 #9644]  INFO -- default-ubuntu-1804:     default: this with a newly generated keypair for better security.
+I, [2020-01-27T09:55:17.651673 #9644]  INFO -- default-ubuntu-1804:     default: 
+I, [2020-01-27T09:55:17.651898 #9644]  INFO -- default-ubuntu-1804:     default: Inserting generated public key within guest...
+I, [2020-01-27T09:55:19.765200 #9644]  INFO -- default-ubuntu-1804:     default: Removing insecure key from the guest if it's present...
+I, [2020-01-27T09:55:20.204722 #9644]  INFO -- default-ubuntu-1804:     default: Key inserted! Disconnecting and reconnecting using new SSH key...
+I, [2020-01-27T09:55:22.104401 #9644]  INFO -- default-ubuntu-1804: ==> default: Machine booted and ready!
+I, [2020-01-27T09:55:22.104551 #9644]  INFO -- default-ubuntu-1804: ==> default: Checking for guest additions in VM...
+I, [2020-01-27T09:55:22.222528 #9644]  INFO -- default-ubuntu-1804:     default: The guest additions on this VM do not match the installed version of
+I, [2020-01-27T09:55:22.222712 #9644]  INFO -- default-ubuntu-1804:     default: VirtualBox! In most cases this is fine, but in rare cases it can
+I, [2020-01-27T09:55:22.222876 #9644]  INFO -- default-ubuntu-1804:     default: prevent things such as shared folders from working properly. If you see
+I, [2020-01-27T09:55:22.223018 #9644]  INFO -- default-ubuntu-1804:     default: shared folder errors, please make sure the guest additions within the
+I, [2020-01-27T09:55:22.223171 #9644]  INFO -- default-ubuntu-1804:     default: virtual machine match the version of VirtualBox you have installed on
+I, [2020-01-27T09:55:22.223278 #9644]  INFO -- default-ubuntu-1804:     default: your host and reload your VM.
+I, [2020-01-27T09:55:22.223377 #9644]  INFO -- default-ubuntu-1804:     default: 
+I, [2020-01-27T09:55:22.223529 #9644]  INFO -- default-ubuntu-1804:     default: Guest Additions Version: 6.1.0
+I, [2020-01-27T09:55:22.223626 #9644]  INFO -- default-ubuntu-1804:     default: VirtualBox Version: 6.0
+I, [2020-01-27T09:55:22.223719 #9644]  INFO -- default-ubuntu-1804: ==> default: [vagrant-hostsupdater] Checking for host entries
+I, [2020-01-27T09:55:22.223811 #9644]  INFO -- default-ubuntu-1804: ==> default: Setting hostname...
+I, [2020-01-27T09:55:23.275578 #9644]  INFO -- default-ubuntu-1804: ==> default: Mounting shared folders...
+I, [2020-01-27T09:55:23.275781 #9644]  INFO -- default-ubuntu-1804:     default: /tmp/omnibus/cache => C:/Users/Shireen Yawer/.kitchen/cache
+I, [2020-01-27T09:55:24.081421 #9644]  INFO -- default-ubuntu-1804: ==> default: Machine not provisioned because `--no-provision` is specified.
+I, [2020-01-27T09:55:34.161413 #9644]  INFO -- default-ubuntu-1804: [SSH] Established
+I, [2020-01-27T09:55:34.162074 #9644]  INFO -- default-ubuntu-1804: Vagrant instance <default-ubuntu-1804> created.
+I, [2020-01-27T09:55:34.165726 #9644]  INFO -- default-ubuntu-1804: Finished creating <default-ubuntu-1804> (1m17.44s).
+I, [2020-01-27T09:55:34.166246 #9644]  INFO -- default-ubuntu-1804: -----> Converging <default-ubuntu-1804>...
+I, [2020-01-27T09:55:34.178833 #9644]  INFO -- default-ubuntu-1804: Preparing files for transfer
+I, [2020-01-27T09:55:34.179755 #9644]  INFO -- default-ubuntu-1804: Policy lock file doesn't exist, running `chef install` for Policyfile C:/opscode/cookbooks/python_code/python_project_cookbook/Policyfile.rb...
+I, [2020-01-27T09:55:46.426551 #9644]  INFO -- default-ubuntu-1804: Building policy python_project_cookbook
+I, [2020-01-27T09:55:46.426732 #9644]  INFO -- default-ubuntu-1804: Expanded run list: recipe[python_project_cookbook::default]
+I, [2020-01-27T09:55:46.426868 #9644]  INFO -- default-ubuntu-1804: Caching Cookbooks...
+I, [2020-01-27T09:55:46.427024 #9644]  INFO -- default-ubuntu-1804: Installing python_project_cookbook >= 0.0.0 from path
+I, [2020-01-27T09:55:49.832866 #9644]  INFO -- default-ubuntu-1804: 
+I, [2020-01-27T09:55:49.833129 #9644]  INFO -- default-ubuntu-1804: Lockfile written to C:/opscode/cookbooks/python_code/python_project_cookbook/Policyfile.lock.json
+I, [2020-01-27T09:55:50.138918 #9644]  INFO -- default-ubuntu-1804: Policy revision id: 1ba024bdbf7b48c6281fea6839c8757397c3c6223ea3e8a80f35882a6e034689
+I, [2020-01-27T09:55:50.172124 #9644]  INFO -- default-ubuntu-1804: Preparing dna.json
+I, [2020-01-27T09:55:50.176396 #9644]  INFO -- default-ubuntu-1804: Exporting cookbook dependencies from Policyfile C:/Users/SHIREE~1/AppData/Local/Temp/default-ubuntu-1804-sandbox-20200127-9644-1twf4yj...
+I, [2020-01-27T09:56:02.161854 #9644]  INFO -- default-ubuntu-1804: Exported policy 'python_project_cookbook' to C:/Users/SHIREE~1/AppData/Local/Temp/default-ubuntu-1804-sandbox-20200127-9644-1twf4yj
+I, [2020-01-27T09:56:02.162072 #9644]  INFO -- default-ubuntu-1804: 
+I, [2020-01-27T09:56:02.162221 #9644]  INFO -- default-ubuntu-1804: To converge this system with the exported policy, run:
+I, [2020-01-27T09:56:02.162528 #9644]  INFO -- default-ubuntu-1804:   cd C:/Users/SHIREE~1/AppData/Local/Temp/default-ubuntu-1804-sandbox-20200127-9644-1twf4yj
+I, [2020-01-27T09:56:02.162670 #9644]  INFO -- default-ubuntu-1804:   chef-client -z
+I, [2020-01-27T09:56:02.173963 #9644]  INFO -- default-ubuntu-1804: Removing non-cookbook files before transfer
+I, [2020-01-27T09:56:02.176166 #9644]  INFO -- default-ubuntu-1804: Preparing validation.pem
+I, [2020-01-27T09:56:02.179880 #9644]  INFO -- default-ubuntu-1804: Preparing client.rb
+I, [2020-01-27T09:56:02.219775 #9644]  INFO -- default-ubuntu-1804: -----> Installing Chef install only if missing package
+I, [2020-01-27T09:56:02.231455 #9644]  INFO -- default-ubuntu-1804: Downloading https://omnitruck.chef.io/install.sh to file /tmp/install.sh
+I, [2020-01-27T09:56:02.232563 #9644]  INFO -- default-ubuntu-1804: Trying wget...
+I, [2020-01-27T09:56:02.330206 #9644]  INFO -- default-ubuntu-1804: Download complete.
+I, [2020-01-27T09:56:02.342009 #9644]  INFO -- default-ubuntu-1804: ubuntu 18.04 x86_64
+I, [2020-01-27T09:56:02.342395 #9644]  INFO -- default-ubuntu-1804: Getting information for chef stable  for ubuntu...
+I, [2020-01-27T09:56:02.342608 #9644]  INFO -- default-ubuntu-1804: downloading https://omnitruck.chef.io/stable/chef/metadata?v=&p=ubuntu&pv=18.04&m=x86_64
+I, [2020-01-27T09:56:02.342759 #9644]  INFO -- default-ubuntu-1804:   to file /tmp/install.sh.1576/metadata.txt
+I, [2020-01-27T09:56:02.343270 #9644]  INFO -- default-ubuntu-1804: trying wget...
+I, [2020-01-27T09:56:02.397109 #9644]  INFO -- default-ubuntu-1804: sha1	e05c7930f1b561c3d1d057a5d5013ea3150374bf
+I, [2020-01-27T09:56:02.397570 #9644]  INFO -- default-ubuntu-1804: sha256	ab107d1b8ee3470aceb3e57edb5fcc220af89c866599ec3d84b5fb3921251d12
+I, [2020-01-27T09:56:02.397885 #9644]  INFO -- default-ubuntu-1804: url	https://packages.chef.io/files/stable/chef/15.7.31/ubuntu/18.04/chef_15.7.31-1_amd64.deb
+I, [2020-01-27T09:56:02.398220 #9644]  INFO -- default-ubuntu-1804: version	15.7.31
+I, [2020-01-27T09:56:02.398621 #9644]  INFO -- default-ubuntu-1804: downloaded metadata file looks valid...
+I, [2020-01-27T09:56:02.409345 #9644]  INFO -- default-ubuntu-1804: downloading https://packages.chef.io/files/stable/chef/15.7.31/ubuntu/18.04/chef_15.7.31-1_amd64.deb
+I, [2020-01-27T09:56:02.409741 #9644]  INFO -- default-ubuntu-1804:   to file /tmp/omnibus/cache/chef_15.7.31-1_amd64.deb
+I, [2020-01-27T09:56:02.410427 #9644]  INFO -- default-ubuntu-1804: trying wget...
+I, [2020-01-27T09:56:54.662313 #9644]  INFO -- default-ubuntu-1804: Comparing checksum with sha256sum...
+I, [2020-01-27T09:56:54.995878 #9644]  INFO -- default-ubuntu-1804: 
+I, [2020-01-27T09:56:54.996179 #9644]  INFO -- default-ubuntu-1804: WARNING WARNING WARNING WARNING WARNING WARNING WARNING WARNING WARNING
+I, [2020-01-27T09:56:54.996293 #9644]  INFO -- default-ubuntu-1804: 
+I, [2020-01-27T09:56:54.996730 #9644]  INFO -- default-ubuntu-1804: You are installing a package without a version pin.  If you are installing
+I, [2020-01-27T09:56:54.996885 #9644]  INFO -- default-ubuntu-1804: on production servers via an automated process this is DANGEROUS and you will
+I, [2020-01-27T09:56:54.997033 #9644]  INFO -- default-ubuntu-1804: be upgraded without warning on new releases, even to new major releases.
+I, [2020-01-27T09:56:54.997149 #9644]  INFO -- default-ubuntu-1804: Letting the version float is only appropriate in desktop, test, development or
+I, [2020-01-27T09:56:54.997291 #9644]  INFO -- default-ubuntu-1804: CI/CD environments.
+I, [2020-01-27T09:56:54.997455 #9644]  INFO -- default-ubuntu-1804: 
+I, [2020-01-27T09:56:54.998233 #9644]  INFO -- default-ubuntu-1804: WARNING WARNING WARNING WARNING WARNING WARNING WARNING WARNING WARNING
+I, [2020-01-27T09:56:54.998387 #9644]  INFO -- default-ubuntu-1804: 
+I, [2020-01-27T09:56:54.998687 #9644]  INFO -- default-ubuntu-1804: Installing chef 
+I, [2020-01-27T09:56:54.998794 #9644]  INFO -- default-ubuntu-1804: installing with dpkg...
+I, [2020-01-27T09:56:55.087824 #9644]  INFO -- default-ubuntu-1804: Selecting previously unselected package chef.
+I, [2020-01-27T09:56:55.424530 #9644]  INFO -- default-ubuntu-1804: (Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 42631 files and directories currently installed.)
+I, [2020-01-27T09:56:55.425144 #9644]  INFO -- default-ubuntu-1804: Preparing to unpack .../cache/chef_15.7.31-1_amd64.deb ...
+I, [2020-01-27T09:56:55.437668 #9644]  INFO -- default-ubuntu-1804: Unpacking chef (15.7.31-1) ...
+I, [2020-01-27T09:57:06.162059 #9644]  INFO -- default-ubuntu-1804: Setting up chef (15.7.31-1) ...
+I, [2020-01-27T09:57:06.281769 #9644]  INFO -- default-ubuntu-1804: Thank you for installing Chef Infra Client! For help getting started visit https://learn.chef.io
+I, [2020-01-27T09:57:06.363481 #9644]  INFO -- default-ubuntu-1804: Transferring files to <default-ubuntu-1804>
+I, [2020-01-27T09:57:09.289341 #9644]  INFO -- default-ubuntu-1804: +---------------------------------------------+
+I, [2020-01-27T09:57:09.289699 #9644]  INFO -- default-ubuntu-1804: [32m✔[0m 2 product licenses accepted.
+I, [2020-01-27T09:57:09.289954 #9644]  INFO -- default-ubuntu-1804: +---------------------------------------------+
+I, [2020-01-27T09:57:09.537210 #9644]  INFO -- default-ubuntu-1804: Starting Chef Infra Client, version 15.7.31
+I, [2020-01-27T09:57:10.935456 #9644]  INFO -- default-ubuntu-1804: Creating a new client identity for default-ubuntu-1804 using the validator key.
+I, [2020-01-27T09:57:11.000806 #9644]  INFO -- default-ubuntu-1804: Using policy 'python_project_cookbook' at revision '1ba024bdbf7b48c6281fea6839c8757397c3c6223ea3e8a80f35882a6e034689'
+I, [2020-01-27T09:57:11.023123 #9644]  INFO -- default-ubuntu-1804: resolving cookbooks for run list: ["python_project_cookbook::default@0.1.0 (2d77070)"]
+I, [2020-01-27T09:57:11.045714 #9644]  INFO -- default-ubuntu-1804: Synchronizing Cookbooks:
+I, [2020-01-27T09:57:11.100631 #9644]  INFO -- default-ubuntu-1804:   - python_project_cookbook (0.1.0)
+I, [2020-01-27T09:57:11.100995 #9644]  INFO -- default-ubuntu-1804: Installing Cookbook Gems:
+I, [2020-01-27T09:57:11.101268 #9644]  INFO -- default-ubuntu-1804: Compiling Cookbooks...
+I, [2020-01-27T09:57:11.111957 #9644]  INFO -- default-ubuntu-1804: Converging 0 resources
+I, [2020-01-27T09:57:11.187087 #9644]  INFO -- default-ubuntu-1804: 
+I, [2020-01-27T09:57:11.187483 #9644]  INFO -- default-ubuntu-1804: Running handlers:
+I, [2020-01-27T09:57:11.187832 #9644]  INFO -- default-ubuntu-1804: Running handlers complete
+I, [2020-01-27T09:57:11.188168 #9644]  INFO -- default-ubuntu-1804: Chef Infra Client finished, 0/0 resources updated in 01 seconds
+I, [2020-01-27T09:57:11.188711 #9644]  INFO -- default-ubuntu-1804: Downloading files from <default-ubuntu-1804>
+I, [2020-01-27T09:57:11.210767 #9644]  INFO -- default-ubuntu-1804: Finished converging <default-ubuntu-1804> (1m37.04s).

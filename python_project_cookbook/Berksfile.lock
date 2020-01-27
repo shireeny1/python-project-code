@@ -1,0 +1,7 @@
+DEPENDENCIES
+  python_project_cookbook
+    path: .
+    metadata: true
+
+GRAPH
+  python_project_cookbook (0.1.0)
